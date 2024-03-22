@@ -1,12 +1,28 @@
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+*{
+    margin: 0;
+    padding: 0;
 }
-.itens {
-	font-style: italic
+.cabecalho {
+  background: #00BFFF;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 3px solid black;
 }
-header {
-	background: rgb(128, 128, 177);
+.cabecalho-imagem {
+  width: 15%;
+  
+}
+.cabecalho-lista-item {
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
+
+.escola-imagem {
+ width: 55%;
+ margin: 0 220px;
+ padding-top: 25px;
 }
